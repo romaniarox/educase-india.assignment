@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form(Mary Doe)</title>
+    <link rel="stylesheet" href="../css-files/user-account.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- User account details -->
+    <div class="account-container">
+      <h2 class="account-heading">Create your<br>PopX account</h2>
+      <!-- User is to fill in the details -->
+      <fieldset class="name">
+        <legend class="fname">Full Name<span class="asterisk">  &#8432</span>
+        </legend>
+       <input type="text" class="full-name" value="Marry Doe" required>
+      </fieldset>
+      <fieldset class="phone">
+        <legend class="pnumber">Phone Number <span class="asterisk">  &#8432</span>
+        </legend>
+       <input type="text" class="phone-number" value="Marry Doe" required>
+      </fieldset>
+      <fieldset class="emails">
+        <legend class="eadd">Email Address<span class="asterisk">  &#8432</span>
+        </legend>
+       <input type="email" class="mail" value="Marry Doe" required>
+      </fieldset>
+      <fieldset class="passwords">
+        <legend class="pwrd">Password <span class="asterisk">  &#8432</span>
+        </legend>
+       <input type="text" class="pword" value="Marry Doe" required>
+      </fieldset>
+      <fieldset class="company-name">
+        <legend class="cname">Company Name<span class="asterisk">  &#8432</span>
+        </legend>
+       <input type="text" class="company" value="Marry Doe" required>
+      </fieldset>
+      <!-- Radio buttons for choice -->
+      <p class="question">Are you an agency?<span class="upper"> &#8432</span></p>
+      <input type="radio" id="op-1" name="choice" value="Yes" checked>
+       <label for="options">Yes</label>
+       <input type="radio" id="op-2" name="choice" value="No">
+       <label for="options">No</label><br>
+       <!-- Button to create account -->
+       <button class="create">Create account</button>
+    </div>
+    <a href="../html-pages/user-signin.html" class="prev">&#171Previous</a>
+    <a href="../html-pages/user-profile.html" class="next">&#187Next</a>
+  </body>
+</html>
