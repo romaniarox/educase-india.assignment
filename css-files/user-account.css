@@ -1,0 +1,361 @@
+/* Login Screen */
+.welcome-container {
+  height: 812px;
+  width: 375px;
+  border: 2px solid rgba(247, 248, 249, 1);
+  margin: 0 auto;
+}
+.welcome-message {
+  margin-top: 575px;
+  margin-left: 20px;
+  color: #1d2226;
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  text-align: left;
+}
+.welcome-details {
+  margin-left: 20px;
+  color: rgba(29, 34, 38, 0.6);
+}
+.first-btn {
+  width: 335px;
+  height: 46px;
+  border-radius: 6px;
+  margin-left: 20px;
+  background-color: rgba(108, 37, 255, 1);
+  border: none;
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.second-btn {
+  width: 335px;
+  height: 46px;
+  margin-left: 20px;
+  background-color: rgba(108, 37, 255, 0.29);
+  border: none;
+  color: rgba(29, 34, 38, 1);
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 6px;
+}
+.link {
+  margin-left: 900px;
+  text-decoration: none;
+  color: #1d2226;
+}
+
+/* User sign in page */
+.sign-container {
+  height: 812px;
+  width: 375px;
+  border: 2px solid rgba(247, 248, 249, 1);
+  margin: 0 auto;
+}
+.sign-up-message {
+  margin-left: 20px;
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+  color: rgba(29, 34, 38, 1);
+  width: 200px;
+  height: 69px;
+}
+.sign-up-details {
+  margin-left: 20px;
+  width: 232px;
+  height: 48px;
+  color: rgba(29, 34, 38, 0.6);
+}
+.email-add {
+  width: 335px;
+  height: 40px;
+  margin-left: 8px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.email {
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+  width: 90px;
+  height: 15px;
+  color: rgba(108, 37, 255, 1);
+}
+.email-id {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  margin-top: 3px;
+}
+.password-add {
+  width: 335px;
+  height: 40px;
+  margin-left: 8px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.password {
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  width: 90px;
+  height: 15px;
+  color: rgba(108, 37, 255, 1);
+}
+.pass {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  margin-top: 3px;
+  width: 101px;
+  height: 17px;
+}
+.login {
+  width: 335px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: rgba(203, 203, 203, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.prev {
+  margin-left: 300px;
+  text-decoration: none;
+  color: #1d2226;
+}
+.next {
+  margin-left: 500px;
+  text-decoration: none;
+  color: #1d2226;
+}
+
+/* User account details */
+.account-container {
+  height: 812px;
+  width: 375px;
+  border: 2px solid rgba(247, 248, 249, 1);
+  margin: 0 auto;
+}
+.account-heading {
+  margin-left: 10px;
+  font-family: "Rubik", sans-serif;
+  width: 200px;
+  height: 69px;
+  font-size: 28px;
+  color: rgba(29, 34, 38, 1);
+  line-height: 40px;
+}
+/* Full name */
+.name {
+  width: 335px;
+  height: 40px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.fname {
+  font-size: 13px;
+  color: rgba(108, 37, 255, 1);
+  font-family: "Rubik", sans-serif;
+}
+.asterisk {
+  color: rgba(255, 0, 0, 1);
+}
+.full-name {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  width: 64px;
+  height: 12px;
+  color: rgba(29, 34, 38, 1);
+}
+/* Phone number */
+.phone {
+  width: 335px;
+  height: 40px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.pnumber {
+  font-size: 13px;
+  color: rgba(108, 37, 255, 1);
+  font-family: "Rubik", sans-serif;
+}
+.phone-number {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  width: 64px;
+  height: 12px;
+  color: rgba(29, 34, 38, 1);
+}
+/* Email address */
+.emails {
+  width: 335px;
+  height: 40px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.eadd {
+  font-size: 13px;
+  color: rgba(108, 37, 255, 1);
+  font-family: "Rubik", sans-serif;
+}
+.mail {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  width: 64px;
+  height: 12px;
+  color: rgba(29, 34, 38, 1);
+}
+/* Password */
+.passwords {
+  width: 335px;
+  height: 40px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.pwrd {
+  font-size: 13px;
+  color: rgba(108, 37, 255, 1);
+  font-family: "Rubik", sans-serif;
+}
+.pword {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  width: 64px;
+  height: 12px;
+  color: rgba(29, 34, 38, 1);
+}
+/* Company Name */
+.company-name {
+  width: 335px;
+  height: 40px;
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.cname {
+  font-size: 13px;
+  color: rgba(108, 37, 255, 1);
+  font-family: "Rubik", sans-serif;
+}
+.company {
+  border: none;
+  font-family: "Rubik", sans-serif;
+  width: 64px;
+  height: 12px;
+  color: rgba(29, 34, 38, 1);
+}
+/* Choice based question */
+.question {
+  margin-left: 18px;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}
+.upper {
+  color: rgba(255, 0, 0, 1);
+}
+input[type="radio"]#op-1 {
+  accent-color: rgb(108, 37, 255, 1);
+}
+#op-1 {
+  margin-left: 18px;
+}
+label {
+  width: 23px;
+  height: 17px;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  color: rgba(29, 34, 38, 1);
+}
+/* Create account button */
+.create {
+  width: 335px;
+  height: 46px;
+  margin-top: 250px;
+  margin-left: 22px;
+  background-color: rgba(108, 37, 255, 1);
+  border-radius: 6px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+/* User profile */
+.profile {
+  height: 812px;
+  width: 375px;
+  border: 2px solid rgba(247, 248, 249, 1);
+  margin: 0 auto;
+}
+.profile-heading {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.03);
+  margin-top: -18px;
+}
+.account {
+  width: 375px;
+  height: 68px;
+  color: rgba(29, 34, 38, 1);
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  padding-top: 40px;
+}
+.profile-details {
+  display: flex;
+}
+/* Image properties */
+.profile-pic {
+  margin-left: 20px;
+}
+.camera {
+  margin-left: -23px;
+  margin-top: -9px;
+}
+/* Profile details */
+.profile-detail {
+  margin-left: 20px;
+}
+.profile-name {
+  width: 73px;
+  height: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: rgba(29, 34, 38, 1);
+  line-height: 0.5;
+}
+.email-details {
+  width: 118px;
+  height: 17px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 0.25px;
+}
+/* Description */
+.description {
+  margin-left: 20px;
+  padding-top: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.end {
+  border-bottom: 2px dotted rgba(29, 34, 38, 0.6);
+}
